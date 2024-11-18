@@ -1,7 +1,7 @@
-public class PepperoniPizza extends Pizza {
+public class VeggiePizza extends Pizza {
     PizzaIngredientFactory ingredientFactory;
 
-    public PepperoniPizza(PizzaIngredientFactory ingredientFactory) {
+    public VeggiePizza(PizzaIngredientFactory ingredientFactory) {
         this.ingredientFactory = ingredientFactory;
     }
 
@@ -10,6 +10,6 @@ public class PepperoniPizza extends Pizza {
         dough = ingredientFactory.createDough();
         sauce = ingredientFactory.createSauce();
         cheese = ingredientFactory.createCheese();
-        pepperoni = ingredientFactory.createPepperoni();
+        veggies = ingredientFactory.createVeggies();
     }
 }
