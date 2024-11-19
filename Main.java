@@ -7,7 +7,7 @@ public class Main {
     System.out.println(pizza);
 
     PizzaStore chicagoPizzaStore = new ChicagoPizzaStore();
-    Pizza pizza1 = chicagoPizzaStore.orderPizza("cheese");
+    Pizza pizza1 = chicagoPizzaStore.orderPizza("veggie");
    
     System.out.println(pizza1); 
 
